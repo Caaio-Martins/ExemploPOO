@@ -1,9 +1,21 @@
 ﻿using ExemploPOO.Models;
 
 
-Pessoa p1 = new Pessoa("Caio");
-Aluno a1 = new Aluno("Antonio");
-a1.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Caio");
+// Aluno a1 = new Aluno("Antonio");
+// a1.Apresentar();
 
 
 
