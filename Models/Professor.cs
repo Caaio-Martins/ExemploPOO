@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    public sealed class Professor : Pessoa // : PESSOA - HERANÇA
+    public class Professor : Pessoa // : PESSOA - HERANÇA
     {
         public Professor()
         {
@@ -17,7 +17,7 @@ namespace ExemploPOO.Models
         }
         public decimal Salario { get; set; }
 
-        public sealed override void Apresentar() //POLIMORFISMO EM TEMPO DE EXECUÇÃO - OVERRIDE
+        public override void Apresentar() //POLIMORFISMO EM TEMPO DE EXECUÇÃO - OVERRIDE
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos, sou um professor e ganho {Salario}.");
         }
