@@ -7,6 +7,14 @@ namespace ExemploPOO.Models
 {
     public class Professor : Pessoa // : PESSOA - HERANÇA
     {
+        public Professor()
+        {
+            
+        }
+        public Professor(string nome) : base(nome) //CHAMANDO O PAI : BASE
+        {
+            
+        }
         public decimal Salario { get; set; }
 
         public override void Apresentar() //POLIMORFISMO EM TEMPO DE EXECUÇÃO - OVERRIDE

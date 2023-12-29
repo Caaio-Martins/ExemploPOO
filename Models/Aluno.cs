@@ -8,6 +8,15 @@ namespace ExemploPOO.Models
 {
     public class Aluno : Pessoa // : PESSOA - HERANÇA
     {
+        public Aluno()
+        {
+            
+        }
+
+        public Aluno(string nome) : base(nome)
+        {
+            
+        }
         public double Nota { get; set; }
 
         public override void Apresentar() //POLIMORFISMO EM TEMPO DE EXECUÇÃO - OVERRIDE
